@@ -16,7 +16,7 @@ function TaskTracker() {
     }
   };
 
-  // Removes an arrow
+  // Removes an array
   const removeTask = (index) => {
     const updatedTasks = [...tasks];
     updatedTasks.splice(index, 1);

@@ -1,0 +1,40 @@
+/* styles.css */
+.movie-search-app {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color:blueviolet;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-search-app {
+    background-image: url('backgroundJJK.jpeg'); /* Update the background image path */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh; /* Use min-height to ensure the background covers the whole viewport */
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .movie {
+    text-align: center;
+  }
+  
